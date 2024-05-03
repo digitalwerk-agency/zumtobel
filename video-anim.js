@@ -3693,4 +3693,6 @@ const Ul = ["disabled"],
             }, 8, ["active", "disabled"])])])]), qi("", !0)], 64))
         }
     });
+    console.log("hello");
+    console.log(document.querySelector('#app'));
 Rl(Jl).mount("#app");
