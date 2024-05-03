@@ -105,7 +105,8 @@
 	overflow: hidden
 }
 .border-2 {
-	border-width: 2px
+	border-width: 2px;
+	border-style: solid;
 }
 .border-gray-100 {
 	--tw-border-opacity: 1;
