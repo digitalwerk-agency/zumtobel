@@ -1,3 +1,26 @@
+#app button{
+    font-family: inherit;
+    font-feature-settings: inherit;
+    font-variation-settings: inherit;
+    font-size: 100%;
+    font-weight: inherit;
+    line-height: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+    margin: 0;
+    padding: 0
+}
+
+
+#app button,
+#app input:where([type=button]),
+#app input:where([type=reset]),
+#app input:where([type=submit]) {
+    -webkit-appearance: button;
+    background-color: transparent;
+    background-image: none
+}
+
 .fixed {
 	position: fixed
 }
